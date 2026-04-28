@@ -1,0 +1,20 @@
+# Python sanal ortamı
+venv/
+.venv/
+env/
+
+# Python önbellek dosyaları
+__pycache__/
+*.py[cod]
+
+# Hassas veriler (Mutlaka gizli kalmalı!)
+.env
+
+# Büyük veri dosyaları ve yerel çıktılar
+*.json
+*.pgn.bz2
+!NIHAI_EGITIM_VERISI_GEMINI.json
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
