@@ -13,7 +13,7 @@ Stockfish'in soğuk ve sayısal analizlerini, profesyonel bir e-spor spikerinin 
 
 1.  **Veri Toplama:** PGN formatındaki oyun dosyaları (Lichess vb.) sisteme beslenir.
 2.  **Teknik Etiketleme (`etiketle.py`):** Stockfish ve `python-chess` kütüphanesi ile hamleler; skor, taktik ve kalite metrikleriyle zenginleştirilir.
-3.  **NLP Yorumlama (`vip_yorumlat.py`):** Etiketlenen veriler Gemini API'sine gönderilerek bir spiker personasıyla Türkçeye dönüştürülür.
+3.  **NLP Yorumlama (`yorum_ekle.py`):** Etiketlenen veriler Gemini API'sine gönderilerek bir spiker personasıyla Türkçeye dönüştürülür.
 4.  **Dataset Oluşturma:** Nihai veriler `EGITIM_VERISI_GEMINI.json` dosyasında toplanır.
 
 ## 🛠️ Kurulum
